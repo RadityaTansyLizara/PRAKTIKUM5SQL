@@ -32,7 +32,8 @@ INSERT INTO mahasiswa VALUES
 SELECT*FROM Mahasiswa;
 `````
 Output :
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM5SQL/assets/147571863/9ba09f49-9cc2-42b6-865a-1ee67424e6e5)
+
 
 `````
 INSERT INTO Matakuliah VALUES
@@ -48,7 +49,8 @@ INSERT INTO Matakuliah VALUES
 SELECT * FROM Matakuliah;
 `````
 Output :
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM5SQL/assets/147571863/ce764984-8768-4c13-ad3e-eb5b69df6ac9)
+
 
 `````
 INSERT INTO JadwalMengajar VALUES
