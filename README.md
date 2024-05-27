@@ -61,6 +61,7 @@ INSERT INTO Matakuliah VALUES
 SELECT * FROM Matakuliah;
 `````
 Output :
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM5SQL/assets/147571863/b73f4e4d-b9b1-4a55-8f1f-8a4d3c8dc386)
 
 `````
 INSERT INTO JadwalMengajar VALUES
@@ -76,7 +77,7 @@ INSERT INTO JadwalMengajar VALUES
 SELECT*FROM JadwalMengajar;
 `````
 Output :
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM5SQL/assets/147571863/bf8daed8-5e56-4284-91e2-d5b44be35e0f)
 
 `````
 INSERT INTO KRSMahasiswa VALUES
@@ -90,7 +91,8 @@ INSERT INTO KRSMahasiswa VALUES
 SELECT * FROM KRSMahasiswa;
 `````
 Output :
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM5SQL/assets/147571863/9f150a81-cffa-4b42-8189-f0ab8fe35135)
+
 
 # Latihan
 - JOIN table Mahasiswa dan Dosen
@@ -99,7 +101,8 @@ SELECT Mahasiswa.nim, Mahasiswa.nama, Mahasiswa.jk, Dosen.nama AS "Dosen PA"
 FROM Mahasiswa INNER JOIN Dosen ON Dosen.kd_ds = Mahasiswa.kd_ds;
 `````
 Output :
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM5SQL/assets/147571863/e4b185b8-dacb-472b-9960-8f54e7a959f7)
+
 
 - LEFT JOIN table Mahasiswa dan Dosen
 `````
@@ -107,7 +110,8 @@ SELECT Mahasiswa.nim, Mahasiswa.nama, Mahasiswa.jk, Dosen.nama AS "Dosen PA"
 FROM Mahasiswa LEFT JOIN Dosen ON Dosen.kd_ds = Mahasiswa.kd_ds;
 `````
 Output:
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM5SQL/assets/147571863/49687797-d2ba-4f43-898c-04501ae10bd5)
+
 
 - JOIN table Jadwal Mengajar, Dosen, dan Matakuliah
 `````
@@ -127,7 +131,8 @@ LEFT JOIN Matakuliah ON JadwalMengajar.kd_mk = Matakuliah.kd_mk
 LEFT JOIN Dosen ON JadwalMengajar.kd_ds = Dosen.kd_ds;
 `````
 Output :
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM5SQL/assets/147571863/15f543de-5765-4857-8551-37fb4e32ceaf)
+
 
 - JOIN tabel KRSMahasiswa, Mahasiswa, Matakuliah, dan Dosen
 `````
@@ -138,4 +143,5 @@ JOIN Matakuliah ON KRSMahasiswa.kd_mk = Matakuliah.kd_mk
 JOIN Dosen ON KRSMahasiswa.kd_ds = Dosen.kd_ds;
 `````
 Output :
-GAMBAR
+![image](https://github.com/RadityaTansyLizara/PRAKTIKUM5SQL/assets/147571863/4fb7431c-a0e6-4b35-95c4-85325a68d298)
+
